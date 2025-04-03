@@ -19,20 +19,6 @@ Do not use this tool to scrape other websites without verifying their terms of s
 
 ---
 
-## Project Structure
-
-```bash
-.
-├── Cargo.toml
-├── src/
-│   ├── main.rs # Starts the Actix server and sets up routes
-│   ├── handlers.rs # HTTP request handling logic
-│   ├── models.rs # Data structures (e.g., ParsedData)
-│   ├── utils.rs # Scraping logic using reqwest, scraper, and regex
-```
-
----
-
 ## Build and Run
 
 Ensure [Rust is installed](https://www.rust-lang.org/tools/install).
