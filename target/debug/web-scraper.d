@@ -1,0 +1,1 @@
+/Users/gaberobison/Desktop/coding/projects/web-scraper/target/debug/web-scraper: /Users/gaberobison/Desktop/coding/projects/web-scraper/src/handlers.rs /Users/gaberobison/Desktop/coding/projects/web-scraper/src/main.rs /Users/gaberobison/Desktop/coding/projects/web-scraper/src/models.rs /Users/gaberobison/Desktop/coding/projects/web-scraper/src/utils.rs

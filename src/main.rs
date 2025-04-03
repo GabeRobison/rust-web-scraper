@@ -13,11 +13,11 @@ async fn main() -> std::io::Result<()> {
             .allowed_origin("http://localhost:3000")
             .allowed_methods(vec!["GET", "POST"])
             .allowed_headers(vec![actix_web::http::header::CONTENT_TYPE])
-            .max_age(3600); // cache CORS preflight response
+            .max_age(3600);
 
         App::new()
             .wrap(cors)
-            .service(handlers::scrape) // registers the /wiki-brief/{title} route
+            .service(handlers::scrape) // registers the /web-scraper/{title} route
     })
     .bind("127.0.0.1:8080")? // run server on localhost:8080
     .run()
